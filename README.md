@@ -7,10 +7,14 @@ Two Interactive Fiction games created by Suraj Marakani, Keep Breathing and King
 Created using Python 3.9 
 and
 Created using Twine 2.3.14
+
 ## References
 Zork, 1977 by Tim Anderson, Marc Blank, Dave Lebling, and Bruce Daniels
+
 Exercises-01a-d, by Suraj Marakani, Professor Jason Francis
+
 ## Future Development
 Addition to the King and Country Story with added items and level up from EXP. Keep Breathing addition includes more meetings with the aliens.
+
 ## Created by
 Suraj Marakani
