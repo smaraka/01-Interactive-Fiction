@@ -1,0 +1,279 @@
+{
+    "uuid": "59F66AC7-7757-4BFB-BF84-B9A6B5BE00A7",
+    "name": "Keep Breathing",
+    "creator": "Twine",
+    "creatorVersion": "2.3.14",
+    "schemaName": "Harlowe 3 to JSON",
+    "schemaVersion": "0.0.6",
+    "createdAtMs": 1631376611087,
+    "passages": [
+      {
+        "name": "Prison Cell",
+        "tags": "",
+        "id": "1",
+        "oxygen": -10,
+        "text": "You wake up noticing your oxygen level going down on your HUD, You are in a prison cell. \nPress w to move towards the door of the cell \n\n[[w->Cell Door]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Cell Door",
+            "original": "[[w->Cell Door]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You wake up noticing your oxygen level going down on your HUD, You are in a prison cell. \nPress w to move towards the door of the cell"
+      },
+      {
+        "name": "Cell Door",
+        "tags": "",
+        "id": "2",
+        "oxygen": -10,
+        "text": "Through the bars of the cell you see some keys on a chair within arms reach. You quickly grab and unlock the door. \nPress w to leave the cell\n\n[[w->Hallway]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Hallway",
+            "original": "[[w->Hallway]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "Through the bars of the cell you see some keys on a chair within arms reach. You quickly grab and unlock the door. \nPress w to leave the cell"
+      },
+      {
+        "name": "Hallway",
+        "tags": "",
+        "id": "3",
+        "oxygen": -10,
+        "text": "Through the Hallway you see 3 rooms, 1 room one each side of the hall and one at the end. \nPress w to go straight, a to head to the left, or d to go to the right.\n\n[[w->Armory]]\n[[a->Break Room]]\n[[d->Dormitory]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Armory",
+            "original": "[[w->Armory]]"
+          },
+          {
+            "linkText": "a",
+            "passageName": "Break Room",
+            "original": "[[a->Break Room]]"
+          },
+          {
+            "linkText": "d",
+            "passageName": "Dormitory",
+            "original": "[[d->Dormitory]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "Through the Hallway you see 3 rooms, 1 room one each side of the hall and one at the end. \nPress w to go straight, a to head to the left, or d to go to the right."
+      },
+      {
+        "name": "Armory",
+        "tags": "",
+        "id": "4",
+        "oxygen": -10,
+        "text": "You see a bunch of guns and armor on the walls however it seems as though it is all useless because it doesn't look usable. Looking through the armor packs you see a book, you also see a door at the other end of the room. \nPress w for exiting the room. Press s for reading the book.\n\n[[w ->Cockpit]]\n[[s ->Soldiers Manual]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Cockpit",
+            "original": "[[w ->Cockpit]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Soldiers Manual",
+            "original": "[[s ->Soldiers Manual]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You see a bunch of guns and armor on the walls however it seems as though it is all useless because it doesn't look usable. Looking through the armor packs you see a book, you also see a door at the other end of the room. \nPress w for exiting the room. Press s for reading the book."
+      },
+      {
+        "name": "Break Room",
+        "tags": "",
+        "id": "5",
+        "oxygen": 5,
+        "text": "You walk into what appears to be a breakroom and you see a big machine with a can labeled O2. And in the number below it says 1cr/1cr in green. You click the button and receive some Oxygen. Your Oxygen bar goes up by 5%. \nPress s to go back\n\n[[s->Hallway]]",
+        "links": [
+          {
+            "linkText": "s",
+            "passageName": "Hallway",
+            "original": "[[s->Hallway]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You walk into what appears to be a breakroom and you see a big machine with a can labeled O2. And in the number below it says 1cr/1cr in green. You click the button and receive some Oxygen. Your Oxygen bar goes up by 5%. \nPress s to go back"
+      },
+      {
+        "name": "Dormitory",
+        "tags": "",
+        "id": "6",
+        "oxygen": -10,
+        "text": "You walk in to see 3 beds that is made out of compressed dirt and wood. You also see side tables on each side of the bed. \nPress w to check table 1, a for table 2, d for table 3 and s to go back to the hallway\n\n[[w ->table 1]]\n[[a ->table 2]]\n[[d ->table 3]]\n[[s->Hallway]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "table 1",
+            "original": "[[w ->table 1]]"
+          },
+          {
+            "linkText": "a",
+            "passageName": "table 2",
+            "original": "[[a ->table 2]]"
+          },
+          {
+            "linkText": "d",
+            "passageName": "table 3",
+            "original": "[[d ->table 3]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Hallway",
+            "original": "[[s->Hallway]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You walk in to see 3 beds that is made out of compressed dirt and wood. You also see side tables on each side of the bed. \nPress w to check table 1, a for table 2, d for table 3 and s to go back to the hallway"
+      },
+      {
+        "name": "Cockpit",
+        "tags": "",
+        "id": "7",
+        "oxygen": -10,
+        "text": "When you enter you see two Mushroom Looking Creatures with glowing forheads to the right and a door acrossed the hall. \nPress d to go to the right and w to go to the door\n\n[[d->Alien Meet]]\n[[w->Fuel Chamber]]",
+        "links": [
+          {
+            "linkText": "d",
+            "passageName": "Alien Meet",
+            "original": "[[d->Alien Meet]]"
+          },
+          {
+            "linkText": "w",
+            "passageName": "Fuel Chamber",
+            "original": "[[w->Fuel Chamber]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "When you enter you see two Mushroom Looking Creatures with glowing forheads to the right and a door acrossed the hall. \nPress d to go to the right and w to go to the door"
+      },
+      {
+        "name": "Soldiers Manual",
+        "tags": "",
+        "id": "8",
+        "oxygen": -10,
+        "text": "How to use the Guns and Armor. You need a Lamella to use the trigger and the bullets use your spores to grow on the enemy. The armor is bullet proof circular metal tech stolen from the Onionites. \nPress s to close book\n\n[[s->Armory]]",
+        "links": [
+          {
+            "linkText": "s",
+            "passageName": "Armory",
+            "original": "[[s->Armory]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "How to use the Guns and Armor. You need a Lamella to use the trigger and the bullets use your spores to grow on the enemy. The armor is bullet proof circular metal tech stolen from the Onionites. \nPress s to close book"
+      },
+      {
+        "name": "table 1",
+        "tags": "",
+        "id": "9",
+        "oxygen": -10,
+        "text": "In table 1 you open the drawer and see a book that reads A Fungi's Function as the title. \nPress w to read it s to go back\n\n[[w->A Fungis Function]]\n[[s->Dormitory]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "A Fungis Function",
+            "original": "[[w->A Fungis Function]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Dormitory",
+            "original": "[[s->Dormitory]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "In table 1 you open the drawer and see a book that reads A Fungi's Function as the title. \nPress w to read it s to go back"
+      },
+      {
+        "name": "table 2",
+        "tags": "",
+        "id": "10",
+        "oxygen": -10,
+        "text": "There is nothing in this table drawer. \nPress s to go back\n[[s->Dormitory]]",
+        "links": [
+          {
+            "linkText": "s",
+            "passageName": "Dormitory",
+            "original": "[[s->Dormitory]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "There is nothing in this table drawer. \nPress s to go back"
+      },
+      {
+        "name": "table 3",
+        "tags": "",
+        "id": "11",
+        "oxygen": 5,
+        "text": "You open the drawer and you see a small canister of air. Your Oxygen goes up by 5%. \nPress s to go back\n\n[[s->Dormitory]]",
+        "links": [
+          {
+            "linkText": "s",
+            "passageName": "Dormitory",
+            "original": "[[s->Dormitory]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You open the drawer and you see a small canister of air. Your Oxygen goes up by 5%. \nPress s to go back"
+      },
+      {
+        "name": "A Fungis Function",
+        "tags": "",
+        "id": "12",
+        "oxygen": -10,
+        "text": "These are the Fungi's Functions\nThere is nothing greater than to serve the all mighty. There is nothing greater than to feed off gray flesh. The rest of the pages are smeared off and unreadable. press s to go back to the Dormitory\n\n[[s->Dormitory]]",
+        "links": [
+          {
+            "linkText": "s",
+            "passageName": "Dormitory",
+            "original": "[[s->Dormitory]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "These are the Fungi's Functions\nThere is nothing greater than to serve the all mighty. There is nothing greater than to feed off gray flesh. The rest of the pages are smeared off and unreadable. press s to go back to the Dormitory"
+      },
+      {
+        "name": "Alien Meet",
+        "tags": "",
+        "id": "13",
+        "oxygen": -100,
+        "text": "You see 2 giant Mushroom looking creatures with flowing shaking gills with those guns you saw earlier and the armored head of the mushrooms are glowing pink. You hear a voice in your head whispering. I'm sorry but this is for the almighty. And one of them shoot you with a gun and a few mushrooms start growing on your body. They Keep Growing until you see your Oxygen level go down to 0%. Game Over.",
+        "links": [],
+        "hooks": [],
+        "cleanText": "You see 2 giant Mushroom looking creatures with flowing shaking gills with those guns you saw earlier and the armored head of the mushrooms are glowing pink. You hear a voice in your head whispering. I'm sorry but this is for the almighty. And one of them shoot you with a gun and a few mushrooms start growing on your body. They Keep Growing until you see your Oxygen level go down to 0%. Game Over."
+      },
+      {
+        "name": "Fuel Chamber",
+        "tags": "",
+        "id": "14",
+        "oxygen": -10,
+        "text": "You see a bunch of rods with glowing red liquid and a sign that says O-negative Fuel cells.\nPress w to go into the door in front of you\n\n\n[[w ->Escape Pods]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Escape Pods",
+            "original": "[[w ->Escape Pods]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You see a bunch of rods with glowing red liquid and a sign that says O-negative Fuel cells.\nPress w to go into the door in front of you"
+      },
+      {
+        "name": "Escape Pods",
+        "tags": "",
+        "id": "15",
+        "win": "",
+        "text": "You have successfully reached the Escape pods and escaped from the ship. Good Job!",
+        "links": [],
+        "hooks": [],
+        "cleanText": "You have successfully reached the Escape pods and escaped from the ship. Good Job!"
+      }
+    ]
+  }

@@ -1,0 +1,623 @@
+{
+    "uuid": "8E0F8172-7F35-4D55-8BC1-865FAC434F51",
+    "name": "King and Country",
+    "creator": "Twine",
+    "creatorVersion": "2.3.14",
+    "schemaName": "Harlowe 3 to JSON",
+    "schemaVersion": "0.0.6",
+    "createdAtMs": 1631384747671,
+    "passages": [
+      {
+        "name": "Start",
+        "tags": "",
+        "id": "1",
+        "text": "You are a highborn destined to be a warrior of greatness. Your Father was killed in the great war against the Mad King who tortures and kills his subjects. However you lost the war and all the bannermen who served your father are captured and held prison at the great castle dungeon in the city of King's Hold where the king resides in his mighty castle.\nPress w to move on.\n\n[[w ->Quest]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Quest",
+            "original": "[[w ->Quest]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You are a highborn destined to be a warrior of greatness. Your Father was killed in the great war against the Mad King who tortures and kills his subjects. However you lost the war and all the bannermen who served your father are captured and held prison at the great castle dungeon in the city of King's Hold where the king resides in his mighty castle.\nPress w to move on."
+      },
+      {
+        "name": "Quest",
+        "tags": "",
+        "id": "2",
+        "text": "You go to your mother the queen and she asks you to pledge your allegiance to her and the Kingdom of Dragonclaw where the great family of Galerider resides. You agree and you start training to be a knight. Gondel Galerider the Knight of Dragonclaw. \nPress w to start your training\n\n[[w ->Training]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Training",
+            "original": "[[w ->Training]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You go to your mother the queen and she asks you to pledge your allegiance to her and the Kingdom of Dragonclaw where the great family of Galerider resides. You agree and you start training to be a knight. Gondel Galerider the Knight of Dragonclaw. \nPress w to start your training"
+      },
+      {
+        "name": "Training",
+        "tags": "",
+        "id": "3",
+        "exp": 100,
+        "text": "You start your training with a slave from King's Hold, a captured knight from the great war. He tells you that there are 3 weapons, 3 paths and whichever path I choose will lead to greatness with his teaching.\nThe three paths are The Sworn Oath of the Sword (w), The True Sight of the ranger (a), or The Deadly Arts of the Assassin (d)\n\n[[w ->Sword]]\n[[a ->Bow]]\n[[d ->Dagger]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Sword",
+            "original": "[[w ->Sword]]"
+          },
+          {
+            "linkText": "a",
+            "passageName": "Bow",
+            "original": "[[a ->Bow]]"
+          },
+          {
+            "linkText": "d",
+            "passageName": "Dagger",
+            "original": "[[d ->Dagger]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You start your training with a slave from King's Hold, a captured knight from the great war. He tells you that there are 3 weapons, 3 paths and whichever path I choose will lead to greatness with his teaching.\nThe three paths are The Sworn Oath of the Sword (w), The True Sight of the ranger (a), or The Deadly Arts of the Assassin (d)"
+      },
+      {
+        "name": "Sword",
+        "tags": "",
+        "id": "4",
+        "text": "You chose the Honorable path of the sword. Bound by oath to fight for honor, riches, and glory. The powerful swing of your mighty greatsword will cut down any who oppose you. Do you choose to accept?\nIf yes click w, if no click s to choose again\n\n[[w ->Sword Journey Start]]\n[[s ->Training]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Sword Journey Start",
+            "original": "[[w ->Sword Journey Start]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Training",
+            "original": "[[s ->Training]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You chose the Honorable path of the sword. Bound by oath to fight for honor, riches, and glory. The powerful swing of your mighty greatsword will cut down any who oppose you. Do you choose to accept?\nIf yes click w, if no click s to choose again"
+      },
+      {
+        "name": "Bow",
+        "tags": "",
+        "id": "5",
+        "text": "You choose the quick, ranged, skillful art of the Bow. This is an elegant weapon for those whos aim is true. With this weapon you will fight alongside your brother's army in order to exact revenge for your father.\nPress w to accept or s to rechoose\n[[w ->Bow Start]]\n[[s ->Training]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Bow Start",
+            "original": "[[w ->Bow Start]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Training",
+            "original": "[[s ->Training]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You choose the quick, ranged, skillful art of the Bow. This is an elegant weapon for those whos aim is true. With this weapon you will fight alongside your brother's army in order to exact revenge for your father.\nPress w to accept or s to rechoose"
+      },
+      {
+        "name": "Dagger",
+        "tags": "",
+        "id": "6",
+        "text": "You chose the deadly path of the Dagger. You must hide in the shadows working for yourself. You trust no one you are no one. You cut off all ties and start training with the brotherhood. \npress w to proceed or s to rechoose\n\n[[w ->Dagger Start]]\n[[s ->Training]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Dagger Start",
+            "original": "[[w ->Dagger Start]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Training",
+            "original": "[[s ->Training]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You chose the deadly path of the Dagger. You must hide in the shadows working for yourself. You trust no one you are no one. You cut off all ties and start training with the brotherhood. \npress w to proceed or s to rechoose"
+      },
+      {
+        "name": "Sword Journey Start",
+        "tags": "",
+        "id": "7",
+        "exp": 500,
+        "text": "It has been about 10 years since the great war, You are 25 and trained to the fullest extent with the might greatsword. You swore vengeance against the Mad King and to take his land and all that he owns. However there is an army standing between you and him. Your first task is to rally your bannermen.\nPress w to proceed\n[[w ->South]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "South",
+            "original": "[[w ->South]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "It has been about 10 years since the great war, You are 25 and trained to the fullest extent with the might greatsword. You swore vengeance against the Mad King and to take his land and all that he owns. However there is an army standing between you and him. Your first task is to rally your bannermen.\nPress w to proceed"
+      },
+      {
+        "name": "South",
+        "tags": "",
+        "id": "8",
+        "text": "You and your men of newly trained knights of Dragonclaw travel south and you have reached a fork in the road. There are 2 paths the main King's road which is faster and safer however you are an enemy of the Mad King so if seen you and your men will be slaughtered. There is another backroad path full of hired swords and mercenaries. Do you wish to go down to king's road (w) or go down the back road (s)?\n\n[[w ->King's Road]]\n[[s ->Back Road]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "King's Road",
+            "original": "[[w ->King's Road]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Back Road",
+            "original": "[[s ->Back Road]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You and your men of newly trained knights of Dragonclaw travel south and you have reached a fork in the road. There are 2 paths the main King's road which is faster and safer however you are an enemy of the Mad King so if seen you and your men will be slaughtered. There is another backroad path full of hired swords and mercenaries. Do you wish to go down to king's road (w) or go down the back road (s)?"
+      },
+      {
+        "name": "King's Road",
+        "tags": "",
+        "id": "9",
+        "text": "Down Kings road you reach your first bannerman with ease since the king's road is empty. The Bannerman greets you with friendly open arms. \"Welcome to the great wolf city of Grayfoot, brothers\". You knew these men since you were a child so you trust them fully. They will only invite your men in if you dine with them.\npress w to accept the invitation or s to reject\n[[w ->Dinner]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Dinner",
+            "original": "[[w ->Dinner]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "Down Kings road you reach your first bannerman with ease since the king's road is empty. The Bannerman greets you with friendly open arms. \"Welcome to the great wolf city of Grayfoot, brothers\". You knew these men since you were a child so you trust them fully. They will only invite your men in if you dine with them.\npress w to accept the invitation or s to reject"
+      },
+      {
+        "name": "Back Road",
+        "tags": "",
+        "id": "10",
+        "text": "You take the backroad south to the other bannermen. And you encounter some bandits on the way looking for gold. They hold you at sword point. You and your men take up arms and you both fight. Your men hold them off but suddenly other bandits start coming out of the trees next to you. And you are surrounded\npress w to proceed\n[[w ->bandits]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "bandits",
+            "original": "[[w ->bandits]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You take the backroad south to the other bannermen. And you encounter some bandits on the way looking for gold. They hold you at sword point. You and your men take up arms and you both fight. Your men hold them off but suddenly other bandits start coming out of the trees next to you. And you are surrounded\npress w to proceed"
+      },
+      {
+        "name": "Dinner",
+        "tags": "",
+        "id": "11",
+        "exp": 200,
+        "text": "Dinner with the Grayfoots went well. You and your men talk to them about your great conquest against the King. You tell them to honor your late father with their sword and ask them to take up arms. They accept and together you share war stories and food. And in the morning the Grayfoots join you in your quest with 20000 Bannermen.\nPress w to continue down Kings Road\n\n[[w ->Kings Road 3]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Kings Road 3",
+            "original": "[[w ->Kings Road 3]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "Dinner with the Grayfoots went well. You and your men talk to them about your great conquest against the King. You tell them to honor your late father with their sword and ask them to take up arms. They accept and together you share war stories and food. And in the morning the Grayfoots join you in your quest with 20000 Bannermen.\nPress w to continue down Kings Road"
+      },
+      {
+        "name": "Kings Road 3",
+        "tags": "",
+        "id": "12",
+        "text": "You continue down Kings Road and see some knights on horses with shiny golden armor on. You quickly gather your men and hide for these are the great Mad King's knights. However much against your luck one of these men spots some of your banner men while trying to hide.\nPress w to proceed\n\n[[w ->Fight with the Kingsgaurd]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Fight with the Kingsgaurd",
+            "original": "[[w ->Fight with the Kingsgaurd]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You continue down Kings Road and see some knights on horses with shiny golden armor on. You quickly gather your men and hide for these are the great Mad King's knights. However much against your luck one of these men spots some of your banner men while trying to hide.\nPress w to proceed"
+      },
+      {
+        "name": "Fight with the Kingsgaurd",
+        "tags": "",
+        "id": "13",
+        "exp": -1000000,
+        "dead": "",
+        "text": "When the knight comes towards you to investigate one of the bannermen gets scared and fires an arrow and the oncoming gaurd. You watch in despair as there is about to be a battle on the road. However when the rest of the Mad King's Knights approach you, the rest of the Grayfoot bannermen pull their swords on your men and you are surrounded. The knights kill your men and finally chop your head off. Game Over.",
+        "links": [],
+        "hooks": [],
+        "cleanText": "When the knight comes towards you to investigate one of the bannermen gets scared and fires an arrow and the oncoming gaurd. You watch in despair as there is about to be a battle on the road. However when the rest of the Mad King's Knights approach you, the rest of the Grayfoot bannermen pull their swords on your men and you are surrounded. The knights kill your men and finally chop your head off. Game Over."
+      },
+      {
+        "name": "bandits",
+        "tags": "",
+        "id": "14",
+        "exp": 500,
+        "text": "You stop your men and start talking to the bandits. \"Gentlemen, Why do you fight us.\" One of the bandits respond \"Cuz we're ungry\" in the common tongue. You then quickly retort, \"are you not mercenaries is it true that you are not ere fer gold. Well I can promise you gold and much more if you join us\". Them being mercenaries they agree and join you and your men to the Grayfoots. You 5 gain experience and level up\nPress w to proceed\n[[w ->grayfoot]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "grayfoot",
+            "original": "[[w ->grayfoot]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You stop your men and start talking to the bandits. \"Gentlemen, Why do you fight us.\" One of the bandits respond \"Cuz we're ungry\" in the common tongue. You then quickly retort, \"are you not mercenaries is it true that you are not ere fer gold. Well I can promise you gold and much more if you join us\". Them being mercenaries they agree and join you and your men to the Grayfoots. You 5 gain experience and level up\nPress w to proceed"
+      },
+      {
+        "name": "grayfoot",
+        "tags": "",
+        "id": "15",
+        "exp": 700,
+        "text": "You reach Grayfoot and make the call to rally. The bannermen join you and you proceed. With the grayfoots at your side you gain 20 experience. You now have 40000 men in your army.\nPress w to call the other 2 bannermen\n\n[[w ->fastforward]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "fastforward",
+            "original": "[[w ->fastforward]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You reach Grayfoot and make the call to rally. The bannermen join you and you proceed. With the grayfoots at your side you gain 20 experience. You now have 40000 men in your army.\nPress w to call the other 2 bannermen"
+      },
+      {
+        "name": "fastforward",
+        "tags": "",
+        "id": "16",
+        "exp": 10000,
+        "text": "After you rally the rest of the bannermen, your army stands 100000 strong. You are ready for war against the Mad King. You stand at the gates of King's Hold sounding the war horn. The Mad King stands at the gate before you with his men as well with 50000 men. \nPress w to go to war\n\n[[w ->war]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "war",
+            "original": "[[w ->war]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "After you rally the rest of the bannermen, your army stands 100000 strong. You are ready for war against the Mad King. You stand at the gates of King's Hold sounding the war horn. The Mad King stands at the gate before you with his men as well with 50000 men. \nPress w to go to war"
+      },
+      {
+        "name": "war",
+        "tags": "",
+        "id": "17",
+        "exp": 50,
+        "text": "You and your men start charging and the Mad King's men start charging. However with double the troops on your side. Focus is brought on them instead of you, their leader. There is a small closed gate at the side of the castle walls.\nPress w to charge into the warfare and start killing or s to enter the side gate.\n\n[[w ->fight]]\n[[s ->gate]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "fight",
+            "original": "[[w ->fight]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "gate",
+            "original": "[[s ->gate]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You and your men start charging and the Mad King's men start charging. However with double the troops on your side. Focus is brought on them instead of you, their leader. There is a small closed gate at the side of the castle walls.\nPress w to charge into the warfare and start killing or s to enter the side gate."
+      },
+      {
+        "name": "fight",
+        "tags": "",
+        "id": "18",
+        "exp": -1000000,
+        "dead": "",
+        "text": "You charge into several men on your horse. On the way your horse gets killed by a pykeman. However you hold your ground taking down over 40 men with only your sword. While focused on the fighting you dont notice an enemy knight on a horse riding at you. You fall when he hits you and you start getting trampled. You and your men win the war but you die on the battlefield a hero. The world goes to live on in peace with your mother ruling as the all mighty dragon queen",
+        "links": [],
+        "hooks": [],
+        "cleanText": "You charge into several men on your horse. On the way your horse gets killed by a pykeman. However you hold your ground taking down over 40 men with only your sword. While focused on the fighting you dont notice an enemy knight on a horse riding at you. You fall when he hits you and you start getting trampled. You and your men win the war but you die on the battlefield a hero. The world goes to live on in peace with your mother ruling as the all mighty dragon queen"
+      },
+      {
+        "name": "gate",
+        "tags": "",
+        "id": "19",
+        "exp": 1000,
+        "text": "You sneak into the gate and start climbing the walls with only two little daggers in each of your hands. Once you get to the top you see the Mad King. With the swing of your greatsword you behead the mad king and win the war. \nPress w to proceed\n[[w ->King]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "King",
+            "original": "[[w ->King]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You sneak into the gate and start climbing the walls with only two little daggers in each of your hands. Once you get to the top you see the Mad King. With the swing of your greatsword you behead the mad king and win the war. \nPress w to proceed"
+      },
+      {
+        "name": "King",
+        "tags": "",
+        "id": "20",
+        "exp": 1000000,
+        "win": "",
+        "text": "You are King of the realm. The great dragon. With every citizen that comes for your aid you burn them alive with your power and might. Then the world truly sees that the Mad King still lives on.",
+        "links": [],
+        "hooks": [],
+        "cleanText": "You are King of the realm. The great dragon. With every citizen that comes for your aid you burn them alive with your power and might. Then the world truly sees that the Mad King still lives on."
+      },
+      {
+        "name": "Bow Start",
+        "tags": "",
+        "id": "21",
+        "exp": 1000,
+        "text": "It has been 20 years of training. You are 35 years old. Your brother is ready for war he has been gathering troops for the last 20 years. From Sellswords to Knights of the realm. Your brother's Army is ruthless and fierce with dragon fire in thier eyes.\nPress w to proceed\n\n[[w ->Battle of Crastor's Port]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Battle of Crastor's Port",
+            "original": "[[w ->Battle of Crastor's Port]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "It has been 20 years of training. You are 35 years old. Your brother is ready for war he has been gathering troops for the last 20 years. From Sellswords to Knights of the realm. Your brother's Army is ruthless and fierce with dragon fire in thier eyes.\nPress w to proceed"
+      },
+      {
+        "name": "Battle of Crastor's Port",
+        "tags": "",
+        "id": "22",
+        "text": "Your brothers army with you in it start heading towards Crastor's Port. The greatest trade city in the realm. If won this port will hinder the Mad King's resources and supply you with weapons and food.\nDo you wish to fight this war with your brothers in arms w for yes, s for no\n\n[[w ->yes]]\n[[s ->no]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "yes",
+            "original": "[[w ->yes]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "no",
+            "original": "[[s ->no]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "Your brothers army with you in it start heading towards Crastor's Port. The greatest trade city in the realm. If won this port will hinder the Mad King's resources and supply you with weapons and food.\nDo you wish to fight this war with your brothers in arms w for yes, s for no"
+      },
+      {
+        "name": "yes",
+        "tags": "",
+        "id": "23",
+        "exp": 1200,
+        "text": "You fight with your brothers in the mighty battle. You see the general on his horse leading the charge. You take aim and shoot a mighty dragon arrow given to you by the blacksmiths of Dragonclaw. The general gets shot in the eye and dies. With the army of Crastor's Port on the run you become a war hero.\nPress w to proceed.\n\n[[w ->war hero]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "war hero",
+            "original": "[[w ->war hero]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You fight with your brothers in the mighty battle. You see the general on his horse leading the charge. You take aim and shoot a mighty dragon arrow given to you by the blacksmiths of Dragonclaw. The general gets shot in the eye and dies. With the army of Crastor's Port on the run you become a war hero.\nPress w to proceed."
+      },
+      {
+        "name": "no",
+        "tags": "",
+        "id": "24",
+        "exp": -10000000,
+        "text": "you decide to stay behind. However the your brother the leader of the army sees you as a coward and exiles you from the army. Going back to dragonclaw. Your mother is surprised to see you so early slowly realizing that you abandoned your post. Your mother locks you in a dungeon where you spend the rest of your life as a coward.",
+        "links": [],
+        "hooks": [],
+        "cleanText": "you decide to stay behind. However the your brother the leader of the army sees you as a coward and exiles you from the army. Going back to dragonclaw. Your mother is surprised to see you so early slowly realizing that you abandoned your post. Your mother locks you in a dungeon where you spend the rest of your life as a coward."
+      },
+      {
+        "name": "war hero",
+        "tags": "",
+        "id": "25",
+        "exp": 1000,
+        "text": "Because of your bravery in battle you are made new lord of Dragonclaw. And with the abbundance of resources in your brother's army from the battle. More and more men join your brother's cause. He makes it to King's hold for the final battle. Do you decide to send troops for his cause w for yes, s for no.\n\n[[w ->send troops]]\n[[s ->dont send troops]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "send troops",
+            "original": "[[w ->send troops]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "dont send troops",
+            "original": "[[s ->dont send troops]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "Because of your bravery in battle you are made new lord of Dragonclaw. And with the abbundance of resources in your brother's army from the battle. More and more men join your brother's cause. He makes it to King's hold for the final battle. Do you decide to send troops for his cause w for yes, s for no."
+      },
+      {
+        "name": "send troops",
+        "tags": "",
+        "id": "26",
+        "exp": 2000,
+        "text": "You send in about 20000 troops. Your Brother as won the war and became king. He has ruled for a while but he looks sick. He starts burning his subjects alive when his subjects question him. He starts to resemble the Mad King after a while. And when the new Mad King takes rule you go to war and die. Your 15 year old son takes on the reigns and starts his journey.\nPress w to proceed\n\n[[w ->Start]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Start",
+            "original": "[[w ->Start]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You send in about 20000 troops. Your Brother as won the war and became king. He has ruled for a while but he looks sick. He starts burning his subjects alive when his subjects question him. He starts to resemble the Mad King after a while. And when the new Mad King takes rule you go to war and die. Your 15 year old son takes on the reigns and starts his journey.\nPress w to proceed"
+      },
+      {
+        "name": "dont send troops",
+        "tags": "",
+        "id": "27",
+        "exp": 10000,
+        "win": "",
+        "text": "You dont send your troops, Your brother loses the war because they were short on men to fight since disease came and wiped out half of his army. He comes home a failure. He commits suicide because of the dissapointment. However you are given great riches and resources because the Mad King found out you did not help your brother and stayed loyal to the King. You live on as lord of Dragonclaw",
+        "links": [],
+        "hooks": [],
+        "cleanText": "You dont send your troops, Your brother loses the war because they were short on men to fight since disease came and wiped out half of his army. He comes home a failure. He commits suicide because of the dissapointment. However you are given great riches and resources because the Mad King found out you did not help your brother and stayed loyal to the King. You live on as lord of Dragonclaw"
+      },
+      {
+        "name": "Dagger Start",
+        "tags": "",
+        "id": "28",
+        "exp": 200,
+        "text": "It has been 5 years since the start of your training. You are trained in the arts of the brotherhood fo assassins. The Brotherhood is a clan of assassins that murder people who cause great turmoil in the world. They help keep the world in balance. You forget about your mothers task in the beginning for it is your duty now to serve the greater god and keep balance if failed you will die. You are given a list of names that you must track and kill.\npress w to read the list\n\n[[w ->the list]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "the list",
+            "original": "[[w ->the list]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "It has been 5 years since the start of your training. You are trained in the arts of the brotherhood fo assassins. The Brotherhood is a clan of assassins that murder people who cause great turmoil in the world. They help keep the world in balance. You forget about your mothers task in the beginning for it is your duty now to serve the greater god and keep balance if failed you will die. You are given a list of names that you must track and kill.\npress w to read the list"
+      },
+      {
+        "name": "the list",
+        "tags": "",
+        "id": "29",
+        "text": "There are 3 names on the list\n- Margerie - The Queen of Dragonclaw (w)\n- Sir Saleg - The leader of the resistance and your brother (a)\n- The Mad King - the tyrant that tortures his subjects (d)\n\nPress any of the chosen keys to choose your target\n\n[[w ->Margerie]]\n[[a ->Sir Saleg]]\n[[d ->The Mad King]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Margerie",
+            "original": "[[w ->Margerie]]"
+          },
+          {
+            "linkText": "a",
+            "passageName": "Sir Saleg",
+            "original": "[[a ->Sir Saleg]]"
+          },
+          {
+            "linkText": "d",
+            "passageName": "The Mad King",
+            "original": "[[d ->The Mad King]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "There are 3 names on the list\n- Margerie - The Queen of Dragonclaw (w)\n- Sir Saleg - The leader of the resistance and your brother (a)\n- The Mad King - the tyrant that tortures his subjects (d)\n\nPress any of the chosen keys to choose your target"
+      },
+      {
+        "name": "Margerie",
+        "tags": "",
+        "id": "30",
+        "exp": 100,
+        "text": "You choose your mother. You travel back to Dragonclaw saying you have business there. Being your mother's son you ask for a meeting with her. Meeting in her chambers she tells you about her rough childhood and the things she had to do to become queen. You feel for your mother as she loved you with all her heart. She loved all her children.\nPress w to kill her press s to not\n\n[[w ->Kill Margerie]]\n[[s ->Death]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Kill Margerie",
+            "original": "[[w ->Kill Margerie]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Death",
+            "original": "[[s ->Death]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You choose your mother. You travel back to Dragonclaw saying you have business there. Being your mother's son you ask for a meeting with her. Meeting in her chambers she tells you about her rough childhood and the things she had to do to become queen. You feel for your mother as she loved you with all her heart. She loved all her children.\nPress w to kill her press s to not"
+      },
+      {
+        "name": "Sir Saleg",
+        "tags": "",
+        "id": "31",
+        "exp": 100,
+        "text": "You choose your brother. You decide to head to the kingdom of grayfoot. One of your Brother's Bannermen. He is going there to rally troops for his cause against the mad king. As a part of the brotherhood you must kill him because there will be a great many who die for his cause. And you ask yourself what is the life of one vs the life of thousands.\nPress w to accept, press s to die\n\n[[w ->Kill Sir Saleg]]\n[[s ->Death]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Kill Sir Saleg",
+            "original": "[[w ->Kill Sir Saleg]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Death",
+            "original": "[[s ->Death]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You choose your brother. You decide to head to the kingdom of grayfoot. One of your Brother's Bannermen. He is going there to rally troops for his cause against the mad king. As a part of the brotherhood you must kill him because there will be a great many who die for his cause. And you ask yourself what is the life of one vs the life of thousands.\nPress w to accept, press s to die"
+      },
+      {
+        "name": "The Mad King",
+        "tags": "",
+        "id": "32",
+        "exp": 100,
+        "text": "You choose the Mad King. Sneaking into his chambers posed as a slave you change his bed sheets and clean his room to disregard suspicion. The Mad King suddenly walks in and tells you to continue what you were doing. He notices you are not as dumb as the other slaves and he starts conversing. The Mad King explains to you his life and the loss of his beloved wife that has turned him mad. Feeling for him you think to yourself that death is the only treatment that this king needs to move on.\nPress w to proceed, or s to change your mind\n\n[[w ->Kill the Mad King]]\n[[s ->Death]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Kill the Mad King",
+            "original": "[[w ->Kill the Mad King]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Death",
+            "original": "[[s ->Death]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You choose the Mad King. Sneaking into his chambers posed as a slave you change his bed sheets and clean his room to disregard suspicion. The Mad King suddenly walks in and tells you to continue what you were doing. He notices you are not as dumb as the other slaves and he starts conversing. The Mad King explains to you his life and the loss of his beloved wife that has turned him mad. Feeling for him you think to yourself that death is the only treatment that this king needs to move on.\nPress w to proceed, or s to change your mind"
+      },
+      {
+        "name": "Kill Sir Saleg",
+        "tags": "",
+        "id": "33",
+        "text": "You track down Sir Saleg and you arrive at Grayfoot. At Grayfoot you take up arms and pose as one of the Grayfoot Bannermen. You introduce yourself with your helmet on to the great usurper Sir Saleg. He greets you with open arms and a drink. While Talking to him you learn a great deal and start feeling reluctant to kill him.\nIf you wish to proceed press w else press s\n\n[[w ->Kill]]\n[[s ->Death]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Kill",
+            "original": "[[w ->Kill]]"
+          },
+          {
+            "linkText": "s",
+            "passageName": "Death",
+            "original": "[[s ->Death]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You track down Sir Saleg and you arrive at Grayfoot. At Grayfoot you take up arms and pose as one of the Grayfoot Bannermen. You introduce yourself with your helmet on to the great usurper Sir Saleg. He greets you with open arms and a drink. While Talking to him you learn a great deal and start feeling reluctant to kill him.\nIf you wish to proceed press w else press s"
+      },
+      {
+        "name": "Death",
+        "tags": "",
+        "id": "34",
+        "exp": -1000000,
+        "dead": "",
+        "text": "Failing in choosing to kill your target you are tracked down and hunted by the brotherhood for this is the ultimate price for treachery of the brotherhood oath. Game Over.",
+        "links": [],
+        "hooks": [],
+        "cleanText": "Failing in choosing to kill your target you are tracked down and hunted by the brotherhood for this is the ultimate price for treachery of the brotherhood oath. Game Over."
+      },
+      {
+        "name": "Kill",
+        "tags": "",
+        "id": "35",
+        "exp": 100000,
+        "win": "",
+        "text": "You Kill your target becoming a full fledged member of the Brotherhood. You live out the rest of your days as an assassin keeping balance to the world. In the end you live as a free man with a family and rule over Dragonsclaw as the next heir to the throne.",
+        "links": [],
+        "hooks": [],
+        "cleanText": "You Kill your target becoming a full fledged member of the Brotherhood. You live out the rest of your days as an assassin keeping balance to the world. In the end you live as a free man with a family and rule over Dragonsclaw as the next heir to the throne."
+      },
+      {
+        "name": "Kill Margerie",
+        "tags": "",
+        "id": "36",
+        "text": "You kill Margerie and with the grief of killing your own mother you take your own life for you know there is no end to the brotherhood.\nPress w to Proceed\n\n[[w ->Death]]",
+        "links": [
+          {
+            "linkText": "w",
+            "passageName": "Death",
+            "original": "[[w ->Death]]"
+          }
+        ],
+        "hooks": [],
+        "cleanText": "You kill Margerie and with the grief of killing your own mother you take your own life for you know there is no end to the brotherhood.\nPress w to Proceed"
+      },
+      {
+        "name": "Kill the Mad King",
+        "tags": "",
+        "id": "37",
+        "win":"",
+        "text": "After slicing the Mad King's throat. Your brother and some men sneak in for they were going to do your deed. However seeing him bleeding to death on the floor. Your brother wins the war through lack of leadership from the Mad King. He names you Kingslayer and gives you the honor of Lordship in the North. You live out the rest of your days a lord with your family in peace.",
+        "links": [],
+        "hooks": [],
+        "cleanText": "After slicing the Mad King's throat. Your brother and some men sneak in for they were going to do your deed. However seeing him bleeding to death on the floor. Your brother wins the war through lack of leadership from the Mad King. He names you Kingslayer and gives you the honor of Lordship in the North. You live out the rest of your days a lord with your family in peace."
+      }
+    ]
+  }
