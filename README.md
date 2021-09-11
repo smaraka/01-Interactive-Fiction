@@ -1,6 +1,8 @@
-# Project Name
+# Project 01—Interactive Fiction
 Interactive Project for MSCH-C220, 11 September 2021
+
 Two Interactive Fiction games created by Suraj Marakani, Keep Breathing and King and Country. Implemented in Python and Twine. Score is tracked, KB - Oxygen + Moves, KaC - exp points. Navigate through the locations to win or lose. Run main.py to launch game client and play the two games. 
+
 ## Implementation
 Created using Python 3.9 
 and
